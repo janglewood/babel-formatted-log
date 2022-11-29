@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "babel index.js -d dist && node dist/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "name": "babel-formatted-log",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "author": "Anton <zhl96@mail.ru>",
+  "license": "MIT"
+}
